@@ -6,7 +6,8 @@ import { Team } from '../models/Team';
   providedIn: 'root'
 })
 export class TeamsService {
-  apiUrl = 'https://world-cup-api.azurewebsites.net/api/teams/groups'
+  // apiUrl = 'https://world-cup-api.azurewebsites.net/api/teams/groups'
+  apiUrl = "https://worldcupsimulator-production.up.railway.app/api/teams/groups"
 
   constructor(private httpClient: HttpClient) { }
 
