@@ -32,7 +32,8 @@ Essa é a parte web do nosso Simulador da Copa do Mundo!
 Essa aplicação foi criada no evento De Ponta a Ponta, um evento prático focado em ensinar como criar aplicações com backend, frontend e banco de dados.
 
 ## Tecnologias :rocket:
-
+#### Back-end
+ - [World.Cup.Simulator](https://github.com/robsonamendonca/World.Cup.Simulator)
 #### Front-end
  - Angular 14
  - Angular Material
