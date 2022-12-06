@@ -1,27 +1,61 @@
-# WorldCupSimulator
+<h1>World Cup Simulator - Web</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+<p align="center">
+<image src="https://via.placeholder.com/300x100.png?text=World-Cup-Simulator"/></br>
+<label>Logo</label>
+</p>
 
-## Development server
+<p align="center">
+  <a href="#sobre-memo">Sobre</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias-rocket">Tecnologias</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+  <a href="#execute-no-seu-pc-computer">Execute no seu PC</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+  <a href="#como-contribuir-">Como Contribuir</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+  <a href="#licença-scroll">Licença</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center">
+<image src="https://img.shields.io/badge/Shields-customizados-red"/>
+</p>
 
-## Code scaffolding
+## Apresentação do Projeto :sparkles:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="center">
+<image src="world-cup-simulator-front.png" />
+</p>
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Sobre :memo:
 
-## Running unit tests
+Essa é a parte web do nosso Simulador da Copa do Mundo!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Essa aplicação foi criada no evento De Ponta a Ponta, um evento prático focado em ensinar como criar aplicações com backend, frontend e banco de dados.
 
-## Running end-to-end tests
+## Tecnologias :rocket:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### Front-end
+ - Angular 14
+ - Angular Material
+ - Typescript
 
-## Further help
+## Execute no seu PC :computer:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Altere a `apiUrl` no arquivo `teams.service.ts` para `"https://localhost:7181/api/teams/groups"`
+- Execute o comando `npm install`
+- Execute o comando `ng serve -o`
+- Acesse o navegador na url `"http://localhost:4200/"`
+
+## Como contribuir 🤔
+
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+## Licença :scroll:
+
+> Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+##### <p align="center"> <strong> < Feito por <a href="https://github.com/robsonamendonca"> @robsonamendonca  </a> /> </strong>  :wave:
